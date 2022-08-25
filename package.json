@@ -1,7 +1,8 @@
 {
-    "name": "",
-    "version": "0.0.1",
+    "name": "test-package",
+    "version": "1.0.0",
     "description": "",
+    "private": "false",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -20,6 +21,10 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ChainSafe/.git"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://npm.pkg.github.com"
     },
     "author": "ChainSafe Systems",
     "license": "Apache-2.0",
